@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    height: 60px;
+}
+
+.navbar-nav {
+    margin-left: 65%;
+}
+
+.header-name-brand h4 {
+    color: #5CB85C;
+    font-size: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.banner {
+    box-shadow: inset 0 8px 8px -8px rgb(0 0 0 / 30%), inset 0 -8px 8px -8px rgb(0 0 0 / 30%);
+    height: 150px;
+    background-color: #5CB85C;
+    ;
+}
+
+.banner-name h3 {
+    color: white;
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.banner-slogan p {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    width: 1140px;
+
+}
+
+.global-feed {
+    float: left;
+    height: 80px;
+    padding-top: 60px;
+    color: #5CB85C;
+    font-size: 20px;
+
+}
+
+hr {
+    margin-top: 100px;
+}
+
+.slide-bar {
+    border: 1px solid;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
+
+.slide-bar p {
+    text-align: start;
+    margin: 10px;
+}
+
+.tag-list a {
+    border: 1px solid #818a91;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: none;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #818a91;
+    color: white;
+}
+
+.tag-list a:hover {
+    background-color: #747779;
+}
+.infor-article .image-infor {
+    float: left;
+}
+
+.infor-sender,
+.preview h2,
+.preview p {
+    text-align: start;
+}
+.image-infor {
+    width: 50px;
+    border-radius: 50%;
+}
+.favoritescount {
+    border: 1px solid black;
+    width: 40px;
+    height: 30px;
+}
