@@ -9,4 +9,4 @@ export const getListUserAxios = async () => {
     })
     console.log('result', result)
     return result?.data
-}
+} 

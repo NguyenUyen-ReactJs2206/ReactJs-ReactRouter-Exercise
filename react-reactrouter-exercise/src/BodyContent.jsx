@@ -6,7 +6,8 @@ export default function BodyContent() {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const [readMore,setIsReadMore] = useState(false);
+//   const [readMore,setIsReadMore] = useState(false);
+
 
   useEffect(() => {
     setIsLoading(true);
@@ -55,11 +56,12 @@ const listData = data.articles;
                 <div className="container-fluid preview">
                   <h2> {el.title}</h2>
                   <p>{el.body}</p>
+                  {/* <span ? setIsReadMore({el.title}) : setIsReadMore("...") >ReadMore</span> */}
                 </div>
                 <button type="button" class="btn btn-secondary">Load more</button>
               </div>
             ))
-        }
+        } 
           </div>
           <div className="col-md-3">
             <div className="slide-bar">
@@ -67,7 +69,7 @@ const listData = data.articles;
               <div className="tag-list">
                 <a href="#"> implemntations</a>
                 <a href="#"> welcome</a>
-                <a href="#"> introduction</a>
+                <a href="#"> introduction</a> 
                 <a href="#"> ipsum</a>
               </div>
             </div>

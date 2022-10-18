@@ -9,4 +9,4 @@ export default function Interface() {
         <BodyContent/>
     </div>
   )
-}
+} 
