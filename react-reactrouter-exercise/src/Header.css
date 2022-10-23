@@ -89,7 +89,7 @@ hr {
 .infor-article .image-infor {
     float: left;
 }
-
+ 
 .infor-sender,
 .preview h2,
 .preview p {
@@ -99,8 +99,11 @@ hr {
     width: 50px; 
     border-radius: 50%;
 }
-.favoritescount {
-    border: 1px solid black;
-    width: 40px;
-    height: 30px;
+.favoritescount button {
+   background-color: #515351;
+  
 }
+.favoritescount button:hover {
+    background-color: #5CB85C;  
+ }
+ 
